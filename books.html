@@ -131,14 +131,16 @@
                 <h2 class="border-left-sec-3 ps-2 text-white fs-1">GET 3 FREE CHAPTERS</h2>
                 <i class="text-white">Sign up to receive the first 3 chapters for FREE and to be kept up to date with my latest news.</i>
                 <form action="#" class="mt-5">
-                    <div class="mb-3">
-                        <input type="text" class="form-control w-75" id="username" placeholder="Name">
+                    <div class="form-floating mb-3">
+                        <input type="text" aria-label="First name" class="form-control me-2 rounded" placeholder="First Name">
+                        <label for="floatingTextarea">UserName</label>
                     </div>
-                    <div class="mb-3">
-                        <input type="email" class="form-control w-75" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
-                    </div>
+                    <div class="form-floating">
+                        <input type="text" aria-label="Last name" class="form-control rounded" placeholder="Last Name">
+                        <label for="floatingTextarea">Email Address</label>
+                    </div><br>
                     <div class="container w-100">
-                        <button type="submit" class="btn btn-primary w-25">Submit</button>
+                        <button type="submit" class="btn btn-primary w-50">Submit</button>
                     </div>
                 </form>
             </div>

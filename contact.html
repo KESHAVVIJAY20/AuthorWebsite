@@ -73,13 +73,29 @@
             <div class="col sec-1-col">
                 <div class="container bg-warning text-center pb-5 rounded pt-5" id="form">
                     <h3 class="text-light"> SEND A MESSAGE</h3><br><br>
-                    <div class="input-group mb-3">
-                        <input type="text" aria-label="First name" class="form-control me-2 rounded" placeholder="First Name">
-                        <input type="text" aria-label="Last name" class="form-control rounded" placeholder="Last Name">
-                    </div>
                     <div class="input-group">
+                        <div class="form-floating mb-3 me-2">
+                            <input type="text" aria-label="First name" class="form-control me-2 rounded" placeholder="First Name">
+                            <label for="floatingTextarea">First Name</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="text" aria-label="Last name" class="form-control rounded" placeholder="Last Name">
+                            <label for="floatingTextarea">Lastname</label>
+                        </div>
+                    </div>
+                    <!-- <div class="input-group">
                         <input type="email" aria-label="Email" class="form-control me-2 rounded" placeholder="Email Address">
                         <input type="text" aria-label="Subject" class="form-control rounded" placeholder="Subject">
+                    </div> -->
+                    <div class="input-group">
+                        <div class=" form-floating me-2">
+                            <input type="email" aria-label="Email" class="form-control me-2 rounded" id="floatingTextarea" placeholder="Email Address">
+                            <label for="floatingTextarea">Email address</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="text" aria-label="Subject" class="form-control rounded" placeholder="Subject">
+                            <label for="floatingTextarea">Subject</label>
+                        </div>
                     </div>
                     <div class="form-floating mb-3">
                         <textarea class="form-control mt-3 mb-3" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
